@@ -56,7 +56,6 @@ const WeatherDashboard = ({ userLocation }) => {
 
   const { main, wind, weather, sys, name } = weatherData;
   const date = new Date().toLocaleDateString();
-  const time = new Date().toLocaleTimeString();
 
   return (
     <div className="weather-dashboard">
